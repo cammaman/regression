@@ -38,7 +38,7 @@ def gradientDescent(x, y, theta, alpha, m, Iterations):
     for i in range(0, Iterations):
         hypothesis = np.dot(x, theta)
         loss = hypothesis - y
-        # avg cost per example (the 2 in 2*m doesn't really matter here.
+       
         
         cost = np.sum(loss ** 2) / (2 * m)
         
